@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +12,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #272727;
   color: white;
   min-height: 100dvh;
   -webkit-font-smoothing: antialiased;
@@ -34,4 +37,5 @@ p {
 
 #root {
   isolation: isolate;
+  padding: 16px;
 }

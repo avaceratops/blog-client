@@ -1,0 +1,36 @@
+$blue-color: #55cdfc;
+$pink-color: #f7a8b8;
+
+.author {
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+}
+
+.title {
+  @apply mb-4 w-fit text-3xl;
+  background: linear-gradient(to right, $blue-color, $pink-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: 'DM Serif Display', serif;
+}
+
+.back,
+.expand {
+  @apply font-extralight text-violet-300;
+
+  &:hover {
+    @apply text-violet-400;
+  }
+}
+
+.back {
+  @apply mb-4 inline-block text-lg;
+}
+
+@media (max-width: 420px) {
+  .author {
+    transform: unset;
+    writing-mode: unset;
+  }
+}

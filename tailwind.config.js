@@ -7,6 +7,9 @@ export default {
         sans: ['Lexend Deca', 'sans-serif'],
         serif: ['DM Serif Display', 'serif'],
       },
+      screens: {
+        xs: '420px',
+      },
     },
   },
   plugins: [],
